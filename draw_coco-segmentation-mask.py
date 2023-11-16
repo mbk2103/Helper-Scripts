@@ -3,9 +3,9 @@ import os
 from pycocotools import mask
 from PIL import Image, ImageDraw
 
-json_path= r"C:\Users\PC_4236\Desktop\ytvis-dataset-class-car\train\JPEGImages\mclaren-train\_annotations.coco.json"
+json_path= r"\ytvis-dataset-class-car\train\JPEGImages\mclaren-train\_annotations.coco.json"
 
-output_folder = r"C:\Users\PC_4236\Desktop\ytvis-dataset-class-car\train\JPEGImages\mclaren-train\Annotations"
+output_folder = r"\ytvis-dataset-class-car\train\JPEGImages\mclaren-train\Annotations"
 os.makedirs(output_folder, exist_ok=True)
 
 with open(json_path, 'r') as f:
